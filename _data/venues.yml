@@ -1,0 +1,11 @@
+"MNRAS":
+  url: https://academic.oup.com/mnras
+  color: "#1f4e79"
+
+"ApJ":
+  url: https://iopscience.iop.org/journal/0004-637X
+  color: "#7a1f5c"
+
+"The Innovation":
+  url: https://www.cell.com/the-innovation/home
+  color: "#0b6b57"

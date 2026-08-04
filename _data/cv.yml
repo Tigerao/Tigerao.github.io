@@ -1,0 +1,100 @@
+cv:
+  name: Jiachang Zhang
+  label: PhD Candidate in Astronomy
+  email: zhangjiachang@smail.nju.edu.cn
+  location: Nanjing, China
+  image: ""
+  summary: >-
+    High-energy astrophysicist studying X-ray binaries, compact objects, accretion,
+    and stellar populations in nearby galaxies with Chandra and XMM–Newton.
+
+  social_networks: []
+
+  sections:
+    Education:
+      - institution: Nanjing University
+        location: Nanjing, China
+        url: https://www.nju.edu.cn/en/
+        area: Astronomy
+        studyType: PhD
+        start_date: ""
+        end_date: Expected 2027
+        highlights:
+          - School of Astronomy and Space Science
+          - Research in high-energy and time-domain astrophysics
+
+    Publications:
+      - title: "The first extragalactic ultra-compact X-ray binary: A candidate black hole-white dwarf system"
+        authors:
+          - Qian-Qi Ma
+          - Jiachang Zhang
+          - Wei-Min Gu
+          - Zhiyuan Li
+          - Shan-Shan Weng
+          - Tong Bao
+        publisher: The Innovation, 7(4), 101181
+        releaseDate: 2026-04-06
+        url: https://doi.org/10.1016/j.xinn.2025.101181
+
+      - title: "Probing periodic and aperiodic variability of X-ray sources in M31, M81, and Centaurus A with Chandra"
+        authors:
+          - Jiachang Zhang
+          - Zhiyuan Li
+          - Ziqian Hua
+          - Tong Bao
+        publisher: Monthly Notices of the Royal Astronomical Society, 546(1), staf2237
+        releaseDate: 2025-12-18
+        url: https://doi.org/10.1093/mnras/staf2237
+
+      - title: "Ring or No Ring—Revisiting the Multiphase Nuclear Environment in M31"
+        authors:
+          - Zongnan Li
+          - Zhao Su
+          - Sumin Wang
+          - Yufan F. Zhou
+          - Zhiyuan Li
+          - Xuanyi Lyu
+          - Fanyi Meng
+          - Kai Zhang
+          - Di Li
+          - Chaowei Tsai
+          - Jingwen Wu
+          - Jiachang Zhang
+        publisher: The Astrophysical Journal, 983(2), 182
+        releaseDate: 2025-04-20
+        url: https://doi.org/10.3847/1538-4357/adc103
+
+      - title: A Chandra search for periodic X-ray sources in the bulge of M31
+        authors:
+          - Jiachang Zhang
+          - Tong Bao
+          - Zhiyuan Li
+        publisher: Monthly Notices of the Royal Astronomical Society, 530(2), 2096–2113
+        releaseDate: 2024-04-12
+        url: https://doi.org/10.1093/mnras/stae1002
+
+    Skills:
+      - name: Research methods
+        level: Advanced
+        icon: fa-solid fa-chart-line
+        keywords: "X-ray timing, spectral analysis, archival astronomy, time-domain analysis, scientific computing"
+
+    Interests:
+      - name: High-energy astrophysics
+        icon: fa-solid fa-star
+        keywords: "X-ray binaries, compact objects, accretion, nearby galaxies, stellar populations"
+
+    Projects:
+      - name: M81F4 recurrent X-ray flaring source
+        summary: A current investigation of recurrent flares, long-term variability, and the multiwavelength environment of an X-ray source in M81.
+        highlights:
+          - Chandra long-term light curve
+          - Flare profiles and recurrence
+          - Chandra/HST positional analysis
+
+      - name: Extragalactic X-ray binary timing survey
+        summary: A uniform Chandra study of periodic and aperiodic variability among X-ray sources in M31, M81, and Centaurus A.
+        highlights:
+          - Flares and dips
+          - Period searches
+          - Multi-epoch variability
