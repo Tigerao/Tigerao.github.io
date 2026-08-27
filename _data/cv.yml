@@ -1,12 +1,12 @@
 cv:
   name: Jiachang Zhang
-  label: PhD Candidate in Astronomy
+  label: PhD Candidate in Astrophysics
   email: zhangjiachang@smail.nju.edu.cn
   location: Nanjing, China
   image: ""
   summary: >-
-    High-energy astrophysicist studying X-ray binaries, compact objects, accretion,
-    and stellar populations in nearby galaxies with Chandra and XMM–Newton.
+    High-energy astrophysicist studying X-ray binaries, accreting compact objects,
+    time-domain variability, and stellar populations in nearby galaxies.
 
   social_networks: []
 
@@ -14,29 +14,51 @@ cv:
     Education:
       - institution: Nanjing University
         location: Nanjing, China
-        url: https://www.nju.edu.cn/en/
-        area: Astronomy
-        studyType: PhD
-        start_date: ""
-        end_date: Expected 2027
+        url: https://astronomy.nju.edu.cn/
+        area: Astrophysics
+        studyType: PhD candidate
+        start_date: 2022-09
+        end_date: 2027-06 (expected)
         highlights:
           - School of Astronomy and Space Science
-          - Research in high-energy and time-domain astrophysics
+          - "Supervisor: Prof. Zhiyuan Li"
+
+      - institution: Nanjing University
+        location: Nanjing, China
+        url: https://dii.nju.edu.cn/
+        area: Astronomy
+        studyType: BS
+        start_date: 2018-09
+        end_date: 2022-06
+        highlights:
+          - Kuang Yaming Honors School
+
+    Academic Visit:
+      - company: University of Washington
+        position: Visiting graduate researcher
+        location: Seattle, WA, USA
+        start_date: 2024-09
+        end_date: 2024-12
+        summary: Studied ionized gas and associated stellar populations in M31 and M33.
+        highlights:
+          - "Supervisor: Dr. Benjamin F. Williams"
+
+    Research Interests:
+      - name: High-energy and nearby-galaxy astrophysics
+        icon: fa-solid fa-star
+        keywords: "Time-domain high-energy astrophysics; X-ray binaries and accreting compact objects; X-ray timing and variability; compact-object populations in nearby galaxies; star clusters and their X-ray populations; diffuse ionized gas and stellar feedback"
 
     Publications:
-      - title: "The first extragalactic ultra-compact X-ray binary: A candidate black hole-white dwarf system"
+      - title: An Unusual Persistent X-ray Source in M81 Exhibiting Recurrent Luminous Flares
         authors:
-          - Qian-Qi Ma
           - Jiachang Zhang
-          - Wei-Min Gu
           - Zhiyuan Li
-          - Shan-Shan Weng
-          - Tong Bao
-        publisher: The Innovation, 7(4), 101181
-        releaseDate: 2026-04-06
-        url: https://doi.org/10.1016/j.xinn.2025.101181
+          - Ziqian Hua
+          - collaborators
+        publisher: Manuscript in preparation
+        releaseDate: 2026
 
-      - title: "Probing periodic and aperiodic variability of X-ray sources in M31, M81, and Centaurus A with Chandra"
+      - title: Probing periodic and aperiodic variability of X-ray sources in M31, M81, and Centaurus A with Chandra
         authors:
           - Jiachang Zhang
           - Zhiyuan Li
@@ -46,7 +68,20 @@ cv:
         releaseDate: 2025-12-18
         url: https://doi.org/10.1093/mnras/staf2237
 
-      - title: "Ring or No Ring—Revisiting the Multiphase Nuclear Environment in M31"
+      - title: "The first extragalactic ultra-compact X-ray binary: A candidate black hole-white dwarf system"
+        authors:
+          - Qian-Qi Ma
+          - Jiachang Zhang
+          - Wei-Min Gu
+          - Zhiyuan Li
+          - Shan-Shan Weng
+          - Tong Bao
+        publisher: The Innovation, 7(4), 101181
+        releaseDate: 2026-04
+        url: https://doi.org/10.1016/j.xinn.2025.101181
+        summary: Qian-Qi Ma and Jiachang Zhang contributed equally.
+
+      - title: Ring or No Ring—Revisiting the Multiphase Nuclear Environment in M31
         authors:
           - Zongnan Li
           - Zhao Su
@@ -61,7 +96,7 @@ cv:
           - Jingwen Wu
           - Jiachang Zhang
         publisher: The Astrophysical Journal, 983(2), 182
-        releaseDate: 2025-04-20
+        releaseDate: 2025-04-18
         url: https://doi.org/10.3847/1538-4357/adc103
 
       - title: A Chandra search for periodic X-ray sources in the bulge of M31
@@ -73,28 +108,129 @@ cv:
         releaseDate: 2024-04-12
         url: https://doi.org/10.1093/mnras/stae1002
 
+    Selected Presentations:
+      - name: "Beyond the Milky Way: Systematic X-ray Timing of Extragalactic LMXBs in M31, M81 and Cen A with the Chandra Archive"
+        summary: Oral presentation · 46th COSPAR Scientific Assembly · Florence, Italy · August 2026
+      - name: Recurrent Luminous X-ray Flares from a Persistent X-ray Binary in M81
+        summary: Oral presentation · Frontiers in Diffuse Hot Gas and Space-based X-ray Telescopes · Suzhou, China · June 2026
+      - name: Probing Periodic and Aperiodic Variability of X-ray Sources in M31, M81, and Centaurus A with Chandra
+        summary: Oral presentation · Third Shen Kuo Symposium · Zhuhai, China · January 2026
+      - name: A High-Resolution Study of Hα-emitting Sources in M33
+        summary: Oral presentation · CSST Annual Science Meeting and Early Science Workshop · Kunming, China · July 2025
+      - name: X-ray Emission from Star Clusters in M31 and M33
+        summary: Oral presentation · Workshop on the Structure, Formation, and Evolution of Stellar Clusters · Dali, China · March–April 2025
+      - name: Searching for Periodic X-ray Sources in the Bulges of M31, M81, and Centaurus A
+        summary: Oral presentation · Second Shen Kuo Symposium · Xiamen, China · December 2024
+      - name: A Chandra Search for Periodic X-ray Sources in the Bulge of M31
+        summary: Poster · 25 Years of Chandra Science Symposium · Boston, USA · December 2024
+      - name: A Chandra Search for Periodic X-ray Sources in the Bulge of M31
+        summary: Poster · First Shen Kuo Symposium · Wuhan, China · January 2024 · Outstanding Poster Award
+
+    Proposals:
+      - name: Joint MCI–IFS Observations of M31
+        summary: Co-Investigator · CSST Early Science Program
+      - name: Joint IFS–MCI Observations of the Virgo Cluster
+        summary: Co-Investigator · CSST Early Science Program
+      - name: Joint MCI–IFS Observations of M33
+        summary: Co-Investigator · CSST Early Science Program
+
+    Awards and Honors:
+      - title: Tiangong International Exchange Scholarship
+        authors:
+          - Nanjing University
+        date: 2024
+        awarder: Nanjing University
+        summary: Approximate value CNY 80,000.
+      - title: Outstanding Poster Award
+        authors:
+          - Chinese Astronomical Society
+        date: 2024
+        awarder: First Shen Kuo Symposium
+        summary: Awarded for “A Chandra Search for Periodic X-ray Sources in the Bulge of M31.”
+      - title: Lu Dexin Award for Outstanding Graduates
+        authors:
+          - Kuang Yaming Honors School, Nanjing University
+        date: 2022
+        awarder: Nanjing University
+      - title: Meritorious Winner, Mathematical Contest in Modeling
+        authors:
+          - COMAP
+        date: 2020
+        awarder: COMAP
+      - title: People’s Scholarship
+        authors:
+          - Nanjing University
+        date: 2020
+        awarder: Nanjing University
+      - title: Scholarship for Top-Talent Students
+        authors:
+          - Nanjing University
+        date: 2020
+        awarder: Nanjing University
+      - title: People’s Scholarship
+        authors:
+          - Nanjing University
+        date: 2019
+        awarder: Nanjing University
+      - title: Scholarship for Top-Talent Students
+        authors:
+          - Nanjing University
+        date: 2019
+        awarder: Nanjing University
+
+    Teaching:
+      - company: Department of Astronomy, Nanjing University
+        position: Teaching Assistant and Lecturer
+        location: Nanjing, China
+        start_date: 2026-02
+        end_date: 2026-07
+        summary: An Introduction to X-ray Astronomy, Spring Semester
+
     Skills:
-      - name: Research methods
+      - name: X-ray data analysis
         level: Advanced
         icon: fa-solid fa-chart-line
-        keywords: "X-ray timing, spectral analysis, archival astronomy, time-domain analysis, scientific computing"
+        keywords: "Chandra, XMM–Newton, Swift, NuSTAR; source detection; spectral extraction and modelling; light curves; periodic and aperiodic timing; transient searches"
+      - name: Optical imaging
+        level: Experienced
+        icon: fa-solid fa-camera
+        keywords: "HST point-source photometry; diffuse ionized gas; emission-line sources; CSST early science"
+      - name: Software
+        level: Advanced
+        icon: fa-solid fa-laptop-code
+        keywords: "CIAO, SAS, HEASoft, XSPEC, DS9, DOLPHOT, Astropy"
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, IDL, Bash/Shell, C++, LaTeX"
 
-    Interests:
-      - name: High-energy astrophysics
-        icon: fa-solid fa-star
-        keywords: "X-ray binaries, compact objects, accretion, nearby galaxies, stellar populations"
+    Languages:
+      - name: Mandarin Chinese
+        summary: Native
+      - name: English
+        summary: Professional working proficiency
 
-    Projects:
-      - name: M81F4 recurrent X-ray flaring source
-        summary: A current investigation of recurrent flares, long-term variability, and the multiwavelength environment of an X-ray source in M81.
+    Outreach and Academic Service:
+      - company: Nanjing University
+        position: Volunteer, Astronomy Night Public Outreach Program
+        location: Nanjing, China
+        start_date: 2023
+        end_date: 2025
+      - company: School of Astronomy and Space Science, Nanjing University
+        position: Student Speaker, Undergraduate Summer Camp
+        location: Nanjing, China
+        start_date: 2024
+        end_date: 2024
+        summary: Invited talk on graduate study, research, and student life for prospective students.
+      - company: School of Astronomy and Space Science, Nanjing University
+        position: Volunteer, Undergraduate Summer Camp
+        location: Nanjing, China
+        start_date: 2023
+        end_date: 2023
+
+    Press:
+      - name: Scientists Discover First Extragalactic Ultra-Compact X-ray Binary
+        summary: Science and Technology Daily · April 2026
         highlights:
-          - Chandra long-term light curve
-          - Flare profiles and recurrence
-          - Chandra/HST positional analysis
-
-      - name: Extragalactic X-ray binary timing survey
-        summary: A uniform Chandra study of periodic and aperiodic variability among X-ray sources in M31, M81, and Centaurus A.
-        highlights:
-          - Flares and dips
-          - Period searches
-          - Multi-epoch variability
+          - https://www.stdaily.com/web/gdxw/2026-04/06/content_498156.html
+          - https://astro.xmu.edu.cn/info/1050/18705.htm
