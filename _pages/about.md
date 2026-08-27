@@ -2,16 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Astronomy · Nanjing University
+subtitle: PhD Candidate in Astrophysics · Nanjing University
 
-profile:
-  align: right
-  image:
-  image_circular: false
-  more_info: >
-    <p>School of Astronomy and Space Science</p>
-    <p>Nanjing University</p>
-    <p>Nanjing, China</p>
+profile: false
 
 selected_papers: true
 social: true
@@ -19,26 +12,25 @@ social: true
 announcements:
   enabled: true
   scrollable: false
-  limit: 4
+  limit: 5
 
 latest_posts:
   enabled: false
 ---
 
-I am a PhD candidate in astronomy at the **School of Astronomy and Space Science, Nanjing University**. My research focuses on high-energy astrophysics, with a particular interest in how X-ray binaries reveal the physics of compact objects, accretion, and stellar populations in nearby galaxies.
+I am an astrophysics PhD candidate at the **School of Astronomy and Space Science, Nanjing University**, supervised by **Prof. Zhiyuan Li**. I study accreting compact objects and X-ray-source populations in nearby galaxies, using their variability to probe accretion physics and binary evolution beyond the Milky Way.
 
-I work with archival observations from facilities including **Chandra** and **XMM–Newton**, using time-domain and spectral analyses to identify periodicity, flares, dips, and long-term variability in extragalactic X-ray sources.
+My work draws primarily on archival observations from **Chandra**, **XMM–Newton**, **Swift**, and **NuSTAR**. I combine time-series analysis, X-ray spectroscopy, and multiwavelength imaging to identify periodic signals, flares, dips, and long-term variability—and to connect compact sources with their surrounding stellar populations and interstellar gas.
 
 ## Research interests
 
-- X-ray binaries and compact objects
-- Accretion and high-energy time-domain astrophysics
-- Periodic and aperiodic X-ray variability
-- Stellar populations in nearby galaxies
-- Chandra and XMM–Newton archival studies
+- X-ray binaries, accreting compact objects, and ultra-compact binaries
+- Periodic and aperiodic variability in extragalactic X-ray sources
+- Compact-object populations in nearby galaxies and star clusters
+- Diffuse ionized gas, resolved stellar populations, and stellar feedback
 
-My current work includes a systematic timing survey of X-ray sources in **M31, M81, and Centaurus A**, and a focused study of **M81F4**, a recurrent X-ray flaring source. See [research projects](/projects/) for details and [publications](/publications/) for the associated papers.
+## Current work
 
-I expect to complete my PhD in **2027** and am interested in postdoctoral opportunities in high-energy and time-domain astrophysics.
+I am leading a study of **M81F4**, an unusual persistent source with recurrent luminous X-ray flares, and extending a systematic timing survey across **M31, M81, and Centaurus A**. Related work examines X-ray emission from star clusters in M31 and M33, the connection between ionized gas and resolved stellar populations, and science cases for the **China Space Station Telescope (CSST)**.
 
-Academic profiles: [ORCID](https://orcid.org/0009-0007-2241-7252) · [NASA ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0009-0007-2241-7252) · [Google Scholar search](https://scholar.google.com/scholar?q=%22Jiachang+Zhang%22+astronomy)
+Explore my [research]({% link _pages/projects.md %}), [publications]({% link _pages/publications.md %}), [talks]({% link _pages/talks.md %}), and [academic CV]({% link _pages/cv.md %}). I expect to complete my PhD in **June 2027** and welcome conversations about postdoctoral opportunities in high-energy and time-domain astrophysics.

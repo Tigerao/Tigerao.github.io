@@ -1,0 +1,355 @@
+/*******************************************************************************
+ * Jiachang Zhang — editorial academic theme
+ ******************************************************************************/
+
+:root {
+  --global-bg-color: #fbfaf7;
+  --global-text-color: #202a2d;
+  --global-text-color-light: #667174;
+  --global-theme-color: #126966;
+  --global-hover-color: #0a4f4d;
+  --global-hover-text-color: #ffffff;
+  --global-card-bg-color: #fffefd;
+  --global-divider-color: #deddd6;
+  --global-footer-bg-color: #173332;
+  --global-footer-text-color: #d9e5e2;
+  --global-footer-link-color: #ffffff;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #151a1b;
+  --global-text-color: #e7e9e4;
+  --global-text-color-light: #9ca7a6;
+  --global-theme-color: #78c7c1;
+  --global-hover-color: #a0ddd8;
+  --global-hover-text-color: #102423;
+  --global-card-bg-color: #1c2324;
+  --global-divider-color: #364142;
+  --global-footer-bg-color: #0d1414;
+  --global-footer-text-color: #b9c7c5;
+  --global-footer-link-color: #ffffff;
+}
+
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.72;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar,
+.post-title,
+.post-description,
+.desc,
+.btn,
+footer,
+.publications,
+.news,
+.projects,
+.social,
+table {
+  font-family: "DM Sans", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--global-text-color);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  margin-top: 2.6rem;
+  font-size: 1.45rem;
+}
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+a {
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.16em;
+}
+
+main.container {
+  padding-bottom: 4rem;
+  padding-top: 2.6rem;
+}
+
+.post-header {
+  margin-bottom: 2.8rem;
+  max-width: 52rem;
+}
+
+.post-title {
+  font-size: clamp(2.65rem, 7vw, 4.65rem);
+  font-weight: 600;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+  margin-bottom: 1rem;
+}
+
+.post-title .font-weight-bold {
+  font-weight: 600 !important;
+}
+
+.post-description,
+.desc {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: 0.065em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.post > article > .clearfix,
+.post > .clearfix {
+  max-width: 54rem;
+}
+
+.navbar {
+  background: color-mix(in srgb, var(--global-bg-color) 93%, transparent);
+  border-bottom: 1px solid var(--global-divider-color);
+  box-shadow: none;
+  opacity: 1;
+  padding: 0.72rem 0;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.navbar .navbar-brand {
+  font-size: 1.03rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  text-transform: uppercase;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link::after {
+  background: var(--global-theme-color);
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 0.2rem;
+  width: 100%;
+}
+
+.social {
+  margin-top: 2.4rem;
+}
+
+.social .contact-icons {
+  font-size: 1.55rem;
+  line-height: 1;
+}
+
+.social .contact-note {
+  color: var(--global-text-color-light);
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 0.82rem;
+  margin-top: 0.85rem;
+}
+
+.news table {
+  border-collapse: separate;
+  border-spacing: 0 0.25rem;
+  font-size: 0.88rem;
+}
+
+.news table td {
+  border: 0;
+  padding-bottom: 0.65rem;
+  padding-top: 0.65rem;
+}
+
+.news table td:first-child {
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.03em;
+  padding-right: 1.25rem;
+  white-space: nowrap;
+}
+
+.projects h2.category {
+  border-bottom: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+  letter-spacing: 0.11em;
+  margin: 2rem 0 1.25rem;
+  padding-bottom: 0.7rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.card {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.card.hoverable:hover {
+  box-shadow: 0 14px 34px rgba(14, 39, 38, 0.09);
+  transform: translateY(-3px);
+}
+
+.card .card-body {
+  padding: 1.45rem 1.5rem 1.6rem;
+}
+
+.card .card-title {
+  font-size: 1.15rem;
+  line-height: 1.28;
+  margin-bottom: 0.65rem;
+}
+
+.card .card-text {
+  color: var(--global-text-color-light);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.publications {
+  margin-top: 2.5rem;
+}
+
+.publications h2.bibliography {
+  border: 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  color: var(--global-theme-color);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  margin: 2.5rem 0 0;
+  padding: 0 0 0.65rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.publications h2.bibliography span {
+  font-size: inherit;
+}
+
+.publications ol.bibliography li {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin: 0;
+  padding: 1.45rem 0 1.55rem;
+}
+
+.publications ol.bibliography li .title {
+  font-size: 1.03rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.42;
+  margin-bottom: 0.35rem;
+}
+
+.publications ol.bibliography li .author,
+.publications ol.bibliography li .periodical {
+  color: var(--global-text-color-light);
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.publications ol.bibliography li .periodical {
+  font-style: normal;
+  margin-top: 0.2rem;
+}
+
+.publications ol.bibliography li .links {
+  margin-top: 0.7rem;
+}
+
+.publications ol.bibliography li .links a.btn,
+.btn {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.075em;
+  padding: 0.25rem 0.7rem;
+  text-transform: uppercase;
+}
+
+.publications ol.bibliography li .links a.btn:hover,
+.btn:hover {
+  background: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: var(--global-hover-text-color);
+}
+
+blockquote {
+  border-left: 3px solid var(--global-theme-color);
+  color: var(--global-text-color-light);
+  font-size: 1.08rem;
+  padding-left: 1.25rem;
+}
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  border: 0;
+  font-size: 0.74rem;
+  letter-spacing: 0.02em;
+  padding: 1.5rem 0;
+}
+
+@media (max-width: 767.98px) {
+  html {
+    font-size: 16px;
+  }
+
+  main.container {
+    padding-top: 1.8rem;
+  }
+
+  .post-header {
+    margin-bottom: 2rem;
+  }
+
+  .post-title {
+    font-size: clamp(2.4rem, 15vw, 3.5rem);
+  }
+
+  .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link::after {
+    width: 1.5rem;
+  }
+
+  .news table td:first-child {
+    padding-right: 0.7rem;
+  }
+}

@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /projects/
-description: Current projects and research themes in extragalactic X-ray astrophysics.
+description: X-ray timing, compact objects, stellar populations, and nearby galaxies.
 nav: true
 nav_order: 2
 display_categories: [current, research]
